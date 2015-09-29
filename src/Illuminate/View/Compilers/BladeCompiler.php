@@ -134,8 +134,6 @@ class BladeCompiler extends Compiler implements CompilerInterface
     {
         $result = '';
 
-        $this->footer = [];
-
         // Here we will loop through all of the tokens returned by the Zend lexer and
         // parse each one into the corresponding valid PHP. We will then have this
         // template as the correctly rendered PHP that can be rendered natively.
